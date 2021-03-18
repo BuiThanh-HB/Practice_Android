@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         edEmail = findViewById(R.id.edEmail);
         edPhone = findViewById(R.id.edPhone);
         btnAdd = findViewById(R.id.btnAdd);
-        rgGender = findViewById(R.id.grGender);
+        rgGender = findViewById(R.id.rgGender);
         btnSearch = findViewById(R.id.btnSearch);
         btnAdd.setOnClickListener(this::onClick);
         btnSearch.setOnClickListener(this::onClick);
